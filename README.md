@@ -1,7 +1,9 @@
 # patched-Diffusion-Models-UAD
-Codebase for the paper [Patched Diffusion Models for Unsupervised Anomaly Detection](https://openreview.net/forum?id=O-uZr5S1tJE&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DMIDL.io%2F2023%2FConference%2FAuthors%23your-submissions)) accepted at MIDL23.
+Codebase for the paper [Patched Diffusion Models for Unsupervised Anomaly Detection](https://arxiv.org/abs/2303.03758) accepted at MIDL23.
 
+## Graphical abstract
 
+![Graphical abstract](pDDPM_graph_abstract.png)
 
 ## Data
 We use the IXI data set, the BraTS21 data set and the MSLUB data set for our experiments. 
