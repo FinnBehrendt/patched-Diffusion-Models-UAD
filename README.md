@@ -45,6 +45,7 @@ Before processing, you need to extract the downloaded zip files and organize the
     └── ...
 
 We apply several preprocessing steps to the data, including resampling to 1.0 mm, skull-stripping with HD-BET, registration to the SRI Atlas, cutting black boarders and N4 Bias correction. 
+To run the preprocessing, you need to clone and setup the [HD-BET](https://github.com/MIC-DKFZ/HD-BET) tool for skull-stripping.
 For each data set there is an individual bash script that performs the preprocessing in the [preprocessing](preprocessing) directory. To preprocess the data, go to the [preprocessing](preprocessing) directory:
 
     cd preprocessing
