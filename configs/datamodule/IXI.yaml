@@ -68,6 +68,7 @@ cfg:
   resizedEvaluation: True
   testsets: # specify which test sets to evaluate!
   - Datamodules_eval.Brats21
+  - Datamodules_eval.MSLUB
   - Datamodules_train.IXI
 
 
