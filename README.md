@@ -128,7 +128,17 @@ To run the training and evaluation of the pDDPM, simply execute
 
 in your terminal. 
 
-Note that you will need an NVIDIA GPU with sufficient memory (~20GB) to run the experiment. 
+## Citation
+If you make use of our work, we would be happy if you cite it via
+
+        @article{behrendt2023patched,
+          title={Patched diffusion models for unsupervised anomaly detection in brain mri},
+          author={Behrendt, Finn and Bhattacharya, Debayan and Kr{\"u}ger, Julia and Opfer, Roland and Schlaefer, Alexander},
+          journal={arXiv preprint arXiv:2303.03758},
+          year={2023}
+          }
+
+  
 
 
 
