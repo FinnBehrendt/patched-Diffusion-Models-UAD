@@ -73,7 +73,7 @@ class MSLUB(LightningDataModule):
             self.csv[state]['seg_path'] = cfg.path.pathBase + '/Data/' + self.csv[state]['seg_path']
             
             if cfg.mode != 't1':
-                self.csv[state]['img_path'] = self.csv[state]['img_path'].str.replace('uniso/t1',f'uniso/{cfg.mode}').str.replace('t1.nii.gz',f'{cfg.mode}.nii.gz')
+                self.csv[state]['img_path'] = self.csv[state]['img_path'].str.replace('MSLUB/t1',f'MSLUB/{cfg.mode}').str.replace('t1.nii.gz',f'{cfg.mode}.nii.gz')
     def setup(self, stage: Optional[str] = None):
         # called on every GPU
         if not hasattr(self,'val_eval'):

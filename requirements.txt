@@ -1,7 +1,7 @@
 accelerate==0.7.1
 albumentations==1.1.0
 ants==0.0.7
-antspyx==0.3.5
+antspyx==0.3.8
 clip==0.2.0
 einops==0.4.1
 einops_exts==0.0.3

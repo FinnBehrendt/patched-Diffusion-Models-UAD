@@ -14,6 +14,9 @@ You can download/request the data sets here:
 * MSLUB: https://lit.fe.uni-lj.si/en/research/resources/3D-MR-MS/
 
 ## Data Preprocessing
+
+# Warning: The Preprocessing is bugged right now and does not represent the steps taken in the paper. A fix will be pushed asap.
+
 Before processing, you need to extract the downloaded zip files and organize them as follows: 
 
     ├── IXI
