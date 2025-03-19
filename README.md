@@ -16,6 +16,10 @@ task of diﬀusion models as a patch-based estimation of healthy brain anatomy, 
 context to guide and improve reconstruction. We evaluate our approach on data of tumors
 and multiple sclerosis lesions and demonstrate a relative improvement of 25.1% compared
 to existing baselines.
+
+## 🚨 New paper: Conditioned DDPMs 🚨 
+We highly recommend our latest conditioned DDPMs (cDDPMs) for unsupervised anomaly detection in brain MRIs. Our new approach offers improved performance, eliminates the need for patching, and significantly enhances domain adaptation. Check out our cDDPM repository [here](https://github.com/FinnBehrendt/Conditioned-Diffusion-Models-UAD).
+
 ## Data
 We use the IXI data set, the BraTS21 data set and the MSLUB data set for our experiments. 
 You can download/request the data sets here:
